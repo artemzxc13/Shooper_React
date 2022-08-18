@@ -1,0 +1,20 @@
+{
+    "parser": "babel-eslint",
+    "globals": {
+      "document": true,
+      "window": true,
+      "screen": true,
+      "If": true
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+      }
+    },
+    "extends": "airbnb",
+    "rules": {
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-first-prop-new-line": ["warn", "multiline-multiprop"]
+    }
+  }
