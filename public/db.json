@@ -1,0 +1,76 @@
+{
+  "shoes": [
+    {
+      "id" : 1,
+      "imageUrl" :"https://cdn.shopify.com/s/files/1/0566/5941/1107/products/SHARKY276_1_550x.jpg?v=1659539975",
+      "name" : "Sharky 276",
+      "types" : [0,1],
+      "sizes" : [40,42,43,44],
+      "price" : 575
+    },
+    {
+      "id" : 2,
+      "imageUrl" :"https://cdn.shopify.com/s/files/1/0566/5941/1107/products/CONNY5953_1_550x.jpg?v=1657816483",
+      "name" : "Conny 5953",
+      "types" : [0,1],
+      "sizes" : [41,42,43,44],
+      "price" : 340
+    },
+    {
+      "id" : 3,
+      "imageUrl" :"https://cdn.shopify.com/s/files/1/0566/5941/1107/products/CONNY5952_1_550x.jpg?v=1657816256",
+      "name" : "Conny 5952",
+      "types" : [0,1],
+      "sizes" : [39,40,41,42,43,44],
+      "price" : 350
+    },
+    {
+      "id" : 4,
+      "imageUrl" :"https://cdn.shopify.com/s/files/1/0566/5941/1107/products/MICK5890_1_550x.jpg?v=1658089776",
+      "name" : "Mick 5890",
+      "types" : [0,1],
+      "sizes" : [39,40,42,43,44],
+      "price" : 365
+    },
+    {
+      "id" : 5,
+      "imageUrl" :"https://cdn.shopify.com/s/files/1/0566/5941/1107/products/MICK5889_1_550x.jpg?v=1658089603",
+      "name" : "Mick 5889",
+      "types" : [0,1],
+      "sizes" : [39,40,41,42,43,44],
+      "price" : 365
+    },
+    {
+      "id" : 6,
+      "imageUrl" :"https://cdn.shopify.com/s/files/1/0566/5941/1107/products/MICK5888_1_550x.jpg?v=1658089323",
+      "name" : "Mick 5888",
+      "types" : [0,1],
+      "sizes" : [39,40,41,42,43,44],
+      "price" : 365
+    },
+    {
+      "id" : 7,
+      "imageUrl" :"https://cdn.shopify.com/s/files/1/0566/5941/1107/products/CROSS254_1_550x.jpg?v=1657875749",
+      "name" : "Cross Trail 254",
+      "types" : [0,1],
+      "sizes" : [39,41,42,43,44],
+      "price" : 515
+    },
+    {
+      "id" : 8,
+      "imageUrl" :"https://cdn.shopify.com/s/files/1/0566/5941/1107/products/DRAKE261_1_550x.jpg?v=1657879087",
+      "name" : "Drake 261",
+      "types" : [0,1],
+      "sizes" : [39,40,41,43,44],
+      "price" : 575
+    },
+    {
+      "id" : 9,
+      "imageUrl" :"https://cdn.shopify.com/s/files/1/0566/5941/1107/products/MASE-D5663_1_550x.jpg?v=1644227923",
+      "name" : "Mase D 5663",
+      "types" : [0,1],
+      "sizes" : [39,40,41,43,44],
+      "price" : 262
+    }
+  ]
+}
