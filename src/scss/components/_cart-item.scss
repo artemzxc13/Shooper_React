@@ -58,11 +58,15 @@
           cursor: auto;
         }
         &.disabled {
-          opacity: 0.5 !important;
+          opacity: 0.2 ;
           pointer-events: none;
+          
+            
         }
-      
+       
+         
       }
+      
     }
   }
 
@@ -80,5 +84,5 @@
     letter-spacing: 0.015em;
   }
 
-  
+
 }

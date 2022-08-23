@@ -1,26 +1,30 @@
 import React from 'react';
 import classNames from 'classnames';
+import { PropTypes } from 'prop-types';
 
 function ShoeBlock({ name, imageUrl, price, sizes }) {
   const availableSizes = [39, 40, 41, 42, 43, 44];
 
-  const [size, setSize] = React.useState(availableSizes[0]);
+  const [activeSize, setActivSize] = React.useState(sizes[0]);
 
+  const onSelectSize = (index) => {
+    setActivSize(index);
+  };
   return (
     <div className="cart-item">
       <img className="cart-item__image" src={imageUrl} alt="Shoes" />
       <h4 className="cart-item__title">{name}</h4>
       <div className="cart-item__selector">
         <ul>
-          {availableSizes.map((curSize, curIndex) => (
+          {availableSizes.map((size, index) => (
             <li
-              key={curIndex}
-              onClick={() => setSize(curSize)}
+              key={size}
+              onClick={() => onSelectSize(index)}
               className={classNames({
-                active: curSize === size,
-                disabled: !sizes.includes(curSize),
+                active: activeSize === index,
+                disabled: !sizes.includes(size),
               })}>
-              {curSize}
+              {size} size
             </li>
           ))}
         </ul>
@@ -47,4 +51,10 @@ function ShoeBlock({ name, imageUrl, price, sizes }) {
   );
 }
 
+ShoeBlock.propTypes = {
+  name: PropTypes.string.isRequired,
+  imageUrl: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  sizes: PropTypes.arrayOf(PropTypes.number).isRequired,
+};
 export default ShoeBlock;

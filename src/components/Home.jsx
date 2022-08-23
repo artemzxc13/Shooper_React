@@ -13,14 +13,16 @@ function Home({ items }) {
         />
         <SortPopup
           onClick={(name) => console.log(name)}
-          items={['popular', 'priсe', 'alphabetically']}
+          items={[
+            { name: 'popular', type: 'popular' },
+            { name: 'priсe', type: 'priсe' },
+            { name: 'alphabetically', type: 'alphabetically' },
+          ]}
         />
       </div>
       <h2 className="content__title">All shoes</h2>
       <div className="content__items">
-        {items.map((obj) => (
-          <ShoeBlock key={obj.id} {...obj} />
-        ))}
+        {items && items.map((obj) => <ShoeBlock key={obj.id} {...obj} />)}
       </div>
     </div>
   );
