@@ -74,9 +74,16 @@
     {
       "id" : 11,
       "imageUrl" :"https://cdn.shopify.com/s/files/1/0566/5941/1107/products/31975YANKEEBRASSNEROLAV.RIFINITO_1_550x.jpg?v=1644233949",
-      "name" : "Ankle Boot 31975 Yankee Brass Nero",
+      "name" : "Ankle Boot 31975",
       "sizes" : [39,40,41, 42,43,44],
       "price" : 451.50
+    },
+    {
+      "id" : 12,
+      "imageUrl" :"https://cdn.shopify.com/s/files/1/0566/5941/1107/products/31975YANKEEBRASSNEROLAV.RIFINITO_1_550x.jpg?v=1644233949",
+      "name" : "Ankle Boot 31975",
+      "sizes" : [40,41, 42,43,44],
+      "price" : 400.50
     }
   ]
 }
